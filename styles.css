@@ -1,0 +1,115 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-saturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--dark-cyan);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  background-color: white;
+  width: 347px;
+  text-align: center;
+  border-radius: 15px;
+  position: relative;
+}
+
+.blue-header img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.info img {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  z-index: 1;
+  left: 35%;
+  top: 25%;
+}
+
+.name-age-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  margin: 70px auto 10px auto;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.light-gray {
+  color: var(--dark-gray);
+}
+
+.age {
+  padding-top: 2px;
+}
+
+.city {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0.5px solid var(--dark-gray);
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px 0 20px 0;
+}
+
+.small {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
